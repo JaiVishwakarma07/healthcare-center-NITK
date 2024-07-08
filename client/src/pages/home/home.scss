@@ -1,0 +1,45 @@
+.home{
+    
+    .displayImage{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .actionContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        .actions{
+            display: flex;
+            position: relative;
+            top: -70px;
+            width: 60%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            &.doc{
+                width: fit-content;
+            }
+            .item{
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 80px;
+                gap: 20px;
+                padding: 30px;
+                width: 100%;
+                cursor: pointer;
+    
+                .itemName{
+                    color: #383838;
+                }
+
+                &:hover{
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    z-index: 50;
+                }
+            }
+        }
+    }
+}

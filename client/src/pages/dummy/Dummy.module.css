@@ -1,0 +1,120 @@
+.prescription{
+        background-color: #fff;
+        width: 794px;
+        min-height: 1050px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+}
+
+.left{
+
+}
+
+.pTop{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid lightgreen;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.doctorName{
+    color: #314E85;
+}
+
+.item{
+    color: #ABABAB;
+    font-weight: 400;
+}
+
+.right{
+    display: flex;
+}
+
+.logoHeading{
+    text-align: right;
+    color: #585858;
+}
+
+.pMiddle{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.medicinesTable{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.medicineHeading{
+    text-transform: uppercase;
+}
+table{
+    text-align: left;
+    border-collapse: collapse;
+    border: 0.5px solid #585858;
+    width: 100%;
+}
+th{
+    border: 1px solid #585858;
+    padding: 5px;
+}
+td{
+    padding: 5px;
+    border: 1px solid #585858;
+    color: #454545;
+}
+.testList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #454545;
+}
+.testHeading{
+    text-transform: uppercase;
+    color: black;
+}
+.pBottom{
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    
+
+}
+.nitkHeading{
+    text-align: center;
+    color: #454545;
+}
+
+.detailContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.address{
+    border-top: 0.5px solid lightgreen;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign{
+    text-align: right;
+    padding: 10px;
+    color: #454545;
+    
+}

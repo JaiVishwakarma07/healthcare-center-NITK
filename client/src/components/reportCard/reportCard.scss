@@ -1,0 +1,72 @@
+.reportCard{
+    border-bottom: 1px solid #5ff493;
+    .cardContainer{
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+
+        .dateTime{
+            color: #ABABAB;
+            font-size: small;
+
+        }
+
+        .middleContent{
+            display: flex;
+            justify-content: space-between;
+            .left{
+                .heading{
+                    color: #314E85;
+                    text-transform: capitalize;
+                }
+                .specialisation{
+                    font-size: medium;
+                    color: #ABABAB;
+                }
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+                align-items: center;
+                justify-content: center;
+                
+                .diagnosis{
+                    color: #383838;
+                    font-size: small;
+                }
+                .diagnosisActive{
+                    color: #DC3545;
+                    font-size: x-large;
+                }
+            }
+        }
+        .remarks{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            .remarksHeading{
+                color: #383838;
+            }
+            .remarksContent{
+                color:#706969;
+            }
+        }
+        .medicineAlloted{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            .medicineHeading{
+                color: #383838;
+            }
+            .medicines{
+                display: grid;
+                grid-template-columns: auto auto;
+                max-width: 30%;
+            }
+        }
+    }
+}

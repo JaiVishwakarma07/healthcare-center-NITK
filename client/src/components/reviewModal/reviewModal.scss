@@ -1,0 +1,64 @@
+.reviewModalContainer{
+    background-color: #EFEFEF;
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    top : 20%;
+    left : 27%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    overflow-y: scroll ;
+    
+
+    .review{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        border-bottom: 0.5px solid lightgreen; 
+        padding-bottom:5px ;
+    }
+
+    .content{
+        font-size: large;
+        span{
+            font-weight: bold;
+        }
+    }
+    .tableContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .tableHeading{}
+    }
+    .listContainer{
+        .listHeading{}
+        ul{
+            li{}
+        }
+    }
+    .buttonContainer{
+        display: flex;
+        gap: 10px;
+        .print{
+            padding: 7px;
+            border-radius: 3px;
+            color: white;
+            background-color: #314E85;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .done{
+            padding: 7px;
+            border-radius: 3px;
+            color: white;
+            background-color: rgb(20, 184, 20);
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}

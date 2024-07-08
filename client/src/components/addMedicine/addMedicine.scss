@@ -1,0 +1,42 @@
+.addModalContainer{
+    background-color: #EFEFEF;
+    position: absolute;
+    width: 25%;
+    height: 36%;
+    top : 30%;
+    left : 33%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    overflow-y: scroll ;
+
+    .addMedicine{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        border-bottom: 0.5px solid lightgreen; 
+        padding-bottom:5px ;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input{
+            padding: 7px;
+            font-size: medium;
+        }
+        button{
+            padding: 7px;
+            border-radius: 3px;
+            color: white;
+            background-color: rgb(20, 184, 20);
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}

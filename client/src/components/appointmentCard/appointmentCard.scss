@@ -1,0 +1,42 @@
+.appointmentCard{
+    border-bottom: 1px solid #5ff493;
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        
+        .left{
+            display: flex;
+            flex-direction: column;
+            .heading{
+                color: #314E85;
+                text-transform: capitalize;
+            }
+            .specialisation{
+                font-size: medium;
+                color: #ABABAB;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            .timeSlot{
+                
+            }
+            .delete{
+                background-color: #DC3545;
+                color: white;
+                border: none;
+                outline: none;
+                border-radius: 3px;
+                padding: 5px 7px;
+                cursor: pointer;
+                max-width: fit-content;
+            }
+        }
+    }
+}

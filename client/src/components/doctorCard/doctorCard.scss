@@ -1,0 +1,50 @@
+.doctorCard{
+    border-bottom: 1px solid #5ff493;
+    .cardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .heading{
+                color: #314E85;
+                text-transform: capitalize;
+            }
+            .date{
+                font-size: medium;
+                color: #666666;
+            }
+            .timeSlot{
+                font-size: medium;
+                color: #666666;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+
+            .button{
+                background-color: #00eb52;
+                color: white;
+                border: none;
+                outline: none;
+                border-radius: 3px;
+                padding: 5px 7px;
+                cursor: pointer;
+                max-width: fit-content;
+                text-decoration: none;
+
+                &.cancel{
+                    background-color: #DC3545;
+                }
+            }
+        }
+    }
+}

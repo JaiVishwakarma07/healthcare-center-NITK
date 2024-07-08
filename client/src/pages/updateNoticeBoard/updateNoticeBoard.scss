@@ -1,0 +1,67 @@
+.updateNB{
+    background-color:#EFEFEF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+    .updateNBWrapper{
+        background-color: #fff;
+        width: 85%;
+        height: auto;
+        margin: 30px 50px 50px 50px;
+        padding: 20px;
+        display: grid;
+        gap: 50px;
+
+        .add{
+            width: fit-content;
+            padding: 10px;
+            color: #fff;
+            background-color: rgb(39, 172, 39);
+            outline: none;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .uNBTable{
+            background-color: #F6F6F6;
+            .uNBTr{
+                background-color: #3DB166;
+            }
+            .uNBTh{
+                padding: 15px;
+                font-size: large;
+                border: 0.5px solid #ABABAB ;
+                color: #585858;
+                text-transform: capitalize;
+
+                .update{
+                    background-color: #314E85;
+                    color: white;
+                    padding: 7px 20px;
+                    border-radius: 3px;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    font-size: large;
+                }
+                .delete{
+                    background-color: #d41f1f;
+                    color: white;
+                    padding: 7px 20px;
+                    border-radius: 3px;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    font-size: large;
+                }
+
+                &.head{
+                    color: white;
+                }
+            }
+        }
+    }
+}

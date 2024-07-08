@@ -1,0 +1,52 @@
+.pharmacyCard{
+    border-bottom: 1px solid #5ff493;
+    .cardContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+
+        .accordion{
+            min-height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow:none;
+
+            .pHeading{
+                color: #314E85;
+            }
+
+            .pharmacyTable{
+                background-color: #F6F6F6;
+
+                .pTr{
+                    background-color: #3DB166;
+                }
+
+                .pTh{
+                    padding: 15px;
+                    font-size: large;
+                    border: 0.5px solid #ABABAB ;
+                    color: #585858;
+
+                    .allot{
+                        background-color: #314E85;
+                        color: white;
+                        padding: 7px 20px;
+                        border-radius: 3px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        font-size: large;
+                    }
+
+                    &.head{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

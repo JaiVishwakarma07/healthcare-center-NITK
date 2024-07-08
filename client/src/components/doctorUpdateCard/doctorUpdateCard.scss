@@ -1,0 +1,70 @@
+.doctorUpdateCard{
+    border-bottom: 1px solid #5ff493;
+    .duCardContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+
+        .accordion{
+            min-height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow:none;
+
+            button{
+                max-width: fit-content;
+                padding: 7px;
+                color: white;
+                background-color: #0ea844;
+                border-radius: 3px;
+                outline: none;
+                border: none;
+            }
+
+            .duHeading{
+                color: #314E85;
+                text-transform: capitalize;
+            }
+
+            .accDetails{
+
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .contentContainer{
+                    display: flex;
+                    gap: 30px;
+                    font-size: large;
+                    button{
+                        background-color: #dd1c1c;
+                    }
+                    th{
+                        background-color: #0ea844;
+                        color: white;
+                    }
+
+                    .daysSide{
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        
+                    }
+                    .timeSide{
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}

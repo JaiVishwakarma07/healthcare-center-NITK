@@ -1,0 +1,100 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+
+
+    .topBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 20px;
+        background-color: #192F59;
+        color: #a8c3f3;
+        transition: 0.5s all ease;
+        
+        
+        .left{
+            display: flex;
+            gap: 20px;
+            
+            h3{
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                font-weight: 300;
+                font-size:15px;
+            }
+        }
+        .right{
+            display: flex;
+            gap: 20px;
+            h3{
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                font-weight: 300;
+                font-size:15px;
+                cursor: pointer;
+            }
+        }
+        &.active{
+            display: none;
+        }
+    }
+    .mainNav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        height: 100px;
+        background-color: #fff;
+        z-index: 50;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: #22375F;
+
+        img{
+            height: 65px;
+            width: auto;
+        }
+        h2{
+            font-weight: 380;
+            font-size: 17px;
+            text-shadow: 0px 0px 1px #2e4b80;
+            text-align: center;
+        }
+
+        &.admin{
+            height: 70px;
+            img{
+                height: 40px;
+            }
+            h2{
+                font-size: 13px;
+            }
+        }
+
+    }
+    .linkBar{
+        padding: 20px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.238);
+        .link{
+            color: #2e4b80;
+            text-decoration: none;
+            font-weight: 500;
+
+            &:hover{
+                color : #3DB166;
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.allNotice{
+    display: flex;
+    flex-direction: column;
+    .allNoticeContainer{
+        background-color:#EFEFEF ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+
+        .menu{
+            width: 86.4%;
+            display: flex;
+            cursor: pointer;
+            .menuHeading{
+                background-color: #F7F7F7;
+                color: #8D8D8D;
+                padding: 30px;
+
+                &.active{
+                    background-color: #fff;
+                    color: #464646;
+                }
+            }
+        }
+        .allNoticeWrapper{
+            background-color: #fff;
+            width: 85%;
+            height: auto;
+            margin: 0px 50px 50px 50px;
+            padding: 10px;
+            .noticeItems{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px;
+                padding: 30px;
+                // align-items: center;
+
+                .item{
+                    display: flex;
+                    flex-direction: column;
+                    font-weight: bold;
+                    color: #454545;
+                    font-size: large;
+                    text-transform: capitalize;
+
+                    span{
+                        color: #959595;
+                        font-weight: normal;
+                        font-size:medium;
+                    }
+                    &:hover{
+                        color: #3DB166;
+                    }
+
+                }
+            }
+        }
+    }
+}

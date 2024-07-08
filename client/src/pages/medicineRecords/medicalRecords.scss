@@ -1,0 +1,81 @@
+.medicalRecords{
+    background-color:#EFEFEF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+    .recordsWrapper{
+        background-color: #fff;
+        width: 85%;
+        height: auto;
+        margin: 0px 50px 50px 50px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+        .topContainer{
+            display: flex;
+            justify-content: space-between; 
+            margin-bottom: 20px;
+            align-items: center;
+            .searchContainer{
+                display: flex;
+                align-items: center;
+                margin: 10px;
+                padding: 3px;
+                border: 0.5px solid lightgrey;
+                max-width: 30%;
+                border-radius: 4px;
+                input{
+                    width: 100%;
+                    padding: 5px;
+                    border: none;
+                    outline: none;
+                }
+            }
+            .add{
+                height: fit-content;
+                padding: 10px;
+                border-radius: 3px;
+                border: none;
+                outline: none;
+                background-color: #3DB166;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        .pharmacyTable{
+            background-color: #F6F6F6;
+
+            .pTr{
+                background-color: #3DB166;
+            }
+
+            .pTh{
+                padding: 15px;
+                font-size: large;
+                border: 0.5px solid #ABABAB ;
+                color: #585858;
+                text-transform: capitalize;
+
+                .update{
+                    background-color: #314E85;
+                    color: white;
+                    padding: 7px 20px;
+                    border-radius: 3px;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    font-size: large;
+                }
+
+                &.head{
+                    color: white;
+                }
+            }
+        }
+    }
+}

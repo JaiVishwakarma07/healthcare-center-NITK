@@ -1,0 +1,58 @@
+.loginModal{
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.138);
+    padding: 15px;
+    right: 9.5%;
+    top: 6.5%;
+
+    .loginModalContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 15px;
+        width: 100%;
+
+        h1{
+            font-size: 15px;
+            line-height: 1;
+            span{
+                font-size: 10px;
+            }
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 10px;
+            input{
+                height: 30px;
+                width: 90%;
+                padding: 7px;
+                border-radius: 3px;
+                border: 0.5px solid lightgrey;
+                outline: none;
+                font-weight: 700;
+                
+            }
+        }
+        button{
+            height: 35px;
+            width: fit-content;
+            border-radius: 3px;
+            outline: none;
+            border: none;
+            background-color: #202020;
+            color: white;
+            padding: 7px;
+            display: flex;
+            align-items: center;
+            font-size: small;
+            gap: 4px;
+            cursor: pointer;
+        }
+
+    }
+}

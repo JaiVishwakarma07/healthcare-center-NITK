@@ -1,0 +1,23 @@
+.updateModalContainer{
+    background-color: #EFEFEF;
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    top : 25%;
+    left : 32%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    overflow-y: scroll ;
+
+    button{
+        width: fit-content;
+        padding: 7px;
+        color: white;
+        border: none;
+        outline: none;
+        background-color: green;
+        border-radius: 3px;
+    }
+}
